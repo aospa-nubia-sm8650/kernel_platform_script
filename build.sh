@@ -51,4 +51,5 @@ export EXT_MODULES="
 
 export LTO=thin
 
+mkdir -p out/target/product/${TARGET_BOARD_PLATFORM}
 RECOMPILE_KERNEL=1 ./kernel_platform/build/android/prepare_vendor.sh ${TARGET_BOARD_PLATFORM} gki
